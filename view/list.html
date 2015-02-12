@@ -24,10 +24,11 @@
 		<div id="scroller">
 			<p class="list_tilte alignright clearfix">
 				<span class="floatleft marl10 color-8">我来审批 (20)</span>
-				<span class="more">批量操作</span>
+				<span class="more" id="choose_some">批量操作</span>
 			</p>
-			<ul class="list">
+			<ul class="list" title="点击批量操作时候给这个UL加choose">
 				<li>
+					<span class="radio_ico"><i class="icon-check2"></i></span>
 					<div class="list_li">
 						<i class="icon-expand-more"></i>
 						<p class="font14">员工费用报销申请</p>
@@ -35,6 +36,38 @@
 					</div>
 				</li>
 				<li title="这个是展开的" class="current">
+					<span class="radio_ico"><i class="icon-check2"></i></span>
+					<div class="list_li">
+						<i class="icon-expand-more"></i>
+						<p class="font14">员工费用报销申请</p>
+						<p><span class="more">赵晓阳</span>2015-2-10 14:26 申请 等待审批</p>
+					</div>
+					<section class="preview" style="display:none;">
+						<em class="arrow_t"></em>
+						<table>
+							<tr>
+								<th>申请人：</th>
+								<td>赵晓阳</td>
+							</tr>
+							<tr>
+								<th>部&nbsp;&nbsp;&nbsp;门：</th>
+								<td>明道北京研发中心</td>
+							</tr>
+							<tr>
+								<th>备&nbsp;&nbsp;&nbsp;注：</th>
+								<td>2015年1月交通费报销</td>
+							</tr>
+						</table>
+						<p class="alignright mart10 clearfix">
+							<span class="btn_inline floatleft">详情...</span>
+							<span class="btn_inline">更多...</span>
+							<span class="btn_inline marl5 marr5 btn_no">否 决</span>
+							<span class="btn_inline btn_yes">通 过</span>
+						</p>
+					</section>
+				</li>
+				<li title="这个是不能展开的" class="no_preview">
+					<span class="radio_ico"><i class="icon-check2"></i></span>
 					<div class="list_li">
 						<i class="icon-expand-more"></i>
 						<p class="font14">员工费用报销申请</p>
@@ -42,6 +75,7 @@
 					</div>
 				</li>
 				<li title="这个是不能展开的" class="no_preview">
+					<span class="radio_ico"><i class="icon-check2"></i></span>
 					<div class="list_li">
 						<i class="icon-expand-more"></i>
 						<p class="font14">员工费用报销申请</p>
@@ -49,6 +83,23 @@
 					</div>
 				</li>
 				<li title="这个是不能展开的" class="no_preview">
+					<span class="radio_ico"><i class="icon-check2"></i></span>
+					<div class="list_li">
+						<i class="icon-expand-more"></i>
+						<p class="font14">员工费用报销申请</p>
+						<p><span class="more">赵晓阳</span>2015-2-10 14:26 申请 等待审批</p>
+					</div>
+				</li>
+				<li title="这个是不能展开的" class="no_preview">
+					<span class="radio_ico"><i class="icon-check2"></i></span>
+					<div class="list_li">
+						<i class="icon-expand-more"></i>
+						<p class="font14">员工费用报销申请</p>
+						<p><span class="more">赵晓阳</span>2015-2-10 14:26 申请 等待审批</p>
+					</div>
+				</li>
+				<li title="这个是不能展开的" class="no_preview">
+					<span class="radio_ico"><i class="icon-check2"></i></span>
 					<div class="list_li">
 						<i class="icon-expand-more"></i>
 						<p class="font14">员工费用报销申请</p>
@@ -59,6 +110,12 @@
 		</div>
 	</section>
 	<!--列表over-->
+	<!--批量操作时候出现的按钮组begin-->
+	<div class="btn_items_bt clearfix">
+		<span class="btn_no">否 决</span>
+		<span class="btn_yes">通 过</span>
+	</div>
+	<!--批量操作时候出现的按钮组begin-->
 	<footer class="footer_tool">
 		<span class="current"><i class="icon-laptop-chromebook"></i>工作台</span>
 		<span><i class="icon-play-install"></i>归档</span>
