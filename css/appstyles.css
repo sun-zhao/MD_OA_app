@@ -86,7 +86,7 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .txt_hidden{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
 .block{display: block;}
 .goon{cursor: pointer;}
-.more{color:#0066cc;padding:0 10px;}
+.more{color:#0066cc;padding:0 10px;display:inline-block;}
 .color-3{color:#333;}
 .color-4{color:#444;}
 .color-6{color:#666!important;}
@@ -226,18 +226,15 @@ margin-bottom:5px;-webkit-animation:bounceIn .3s .3s ease both;animation:bounceI
 .btn_items_bt .btn_yes{background:#21c064;}
 
 .list_main{top:80px;bottom:50px;}
-.list_tilte{height:26px;line-height:26px;border-bottom:1px solid #ccc;}
-.list li{min-height:74px;border-bottom:1px solid #ccc;background:#f5f5f5;position:relative;}
-.list_li{position: relative;padding:12px 0 0 0;z-index:2;background:#f5f5f5;right:0;transition:0.3s;-webkit-transition:0.3s;}
-.list_li .more{padding:0;padding-right:2px;}
-<<<<<<< HEAD
-.list_li{position: relative;padding:12px 0 0 10px;}
-.list_li p{line-height:26px;}
+.list_tilte{height:30px;line-height:30px;border-bottom:1px solid #ccc;}
+.list_tilte .more{height:30px;line-height:30px;}
+.list li{min-height:69px;border-bottom:1px solid #ccc;background:#f5f5f5;position:relative;}
+.list li span [class^="btn_"],.list li span [class*="btn_"]{display:inline-block;position:absolute;height:70px;line-height:70px;}
+.list_li{position: relative;padding:10px 0 0 0;z-index:2;background:#f5f5f5;right:0;transition:0.3s;-webkit-transition:0.3s;}
+.list_li .more{padding:0;padding-right:2px;display:inline;}
 .list_li .icon-expand-more{position:absolute;font-size:20px;left:92%;top:50%;margin-top:-7px;color:#ccc;transition:0.3s;-webkit-transition:0.3s;}
-=======
 .list_li p{line-height:26px;text-indent:18px;}
 .list_li .icon-expand-more{position:absolute;font-size:20px;left:92%;top:50%;margin-top:-7px;color:#aaa;transition:0.3s;-webkit-transition:0.3s;}
->>>>>>> 08ecef1887c85367d7479adc6bdc67a201aad6d4
 .current .icon-expand-more{transform:rotate(-180deg);-webkit-transform:rotate(-180deg);transition:0.3s;-webkit-transition:0.3s;}
 .no_preview .icon-expand-more{transform:rotate(-90deg);-webkit-transform:rotate(-90deg);}
 .preview{padding:10px 20px;margin-top:10px;background:#eee;border-top:1px solid #ddd;position:relative;}

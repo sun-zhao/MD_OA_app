@@ -6,7 +6,9 @@ $(document).ready(function(){
 		$choose_some = $('#choose_some'),
 		$search = $('#search'),
 		$form_table_td = $('.form_table td'),
-		$btn_items_bt = $('.btn_items_bt');
+		$btn_items_bt = $('.btn_items_bt'),
+		$choose = $('.choose'),
+		$choose_li = $choose.find('li');
 	//表单ICON 点击
 	$form_table_td.off('touchstart').on('touchstart',function(){
 		var $this = $(this);
@@ -32,18 +34,19 @@ $(document).ready(function(){
 		}else{
 			$list.addClass('choose');	
 		}
+		
 	});
-	$radio_ico.off('touchstart').on('touchstart',function(){
+	$choose_li.off('touchstart').on('touchstart',function(){
 		var $this = $(this);
-		if($this.hasClass('current')){
-			$this.removeClass('current');
+		if($this.find('.radio_ico').hasClass('current')){
+			$this.find('.radio_ico').removeClass('current');
 			$btn_items_bt.removeClass('current');
 		}else{
-			$this.addClass('current');	
+			$this.find('.radio_ico').addClass('current');	
 			$btn_items_bt.addClass('current');
 		}
 	});
-	
+	$choose_li.live();
 });
 
 
