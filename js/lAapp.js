@@ -46,7 +46,15 @@ $(document).ready(function(){
 			$btn_items_bt.addClass('current');
 		}
 	});
-	$choose_li.live();
+	
+	$('#user_ser').off('touchstart').on('touchstart',function(){
+		var $this = $(this);
+		if($this.hasClass('current')){
+			return;
+		}else{
+			$this.addClass('current');	
+		}
+	});
 });
 
 

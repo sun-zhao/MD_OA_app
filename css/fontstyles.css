@@ -21,7 +21,13 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.icon-iback:before {
+	content: "\e652";
+}
 
+.icon-apps:before {
+	content: "\e653";
+}
 .icon-image:before {
 	content: "\e90d";
 }
