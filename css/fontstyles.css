@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'oafont';
-	src:url('oafont.eot?e2x85m');
-	src:url('oafont.eot?#iefixe2x85m') format('embedded-opentype'),
-		url('oafont.woff?e2x85m') format('woff'),
-		url('oafont.ttf?e2x85m') format('truetype'),
-		url('oafont.svg?e2x85m#icomoon') format('svg');
+	font-family: 'moafont';
+	src:url('moafont.eot?e2x85m');
+	src:url('moafont.eot?#iefixe2x85m') format('embedded-opentype'),
+		url('moafont.woff?e2x85m') format('woff'),
+		url('moafont.ttf?e2x85m') format('truetype'),
+		url('moafont.svg?e2x85m#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'oafont';
+	font-family: 'moafont';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
