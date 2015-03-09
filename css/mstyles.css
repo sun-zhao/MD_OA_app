@@ -148,6 +148,21 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .splash_logo,.splash_img{width:100%;position: absolute;top:20%;z-index:2;}
 .splash_img{max-width:1080px;left:50%;margin-left:-50%;top:inherit;bottom:0;z-index:1;}
 .splash_logo img{width:46%;max-width:500px;}
+.choosenet{width:270px;background:#fff;position:absolute;left:50%;margin-left:-135px;z-index:300;border-radius:5px;top:50%;margin-top:-100px;}
+.choosenet ul li{display:block;margin:0 13px;border-bottom:1px solid #ccc;height:50px;line-height:50px;font-size:14px;text-indent:5px;position:relative;z-index:10;}
+.choosenet ul li:last-child{border-bottom:0;}
+.choosenet .quitBtn{display:block;height:40px;line-height:40px;font-size:15px;color:#fff;background:#4587c4;border-radius:4px;margin:10px;position:relative;z-index:100;}
+.choosenet ul li.current{color:#5299e4;background: none;}
+.choosenet .choosenet_out{height:150px;overflow: hidden;overflow-y: auto;}
+.update .choosenet_out{height:200px;}
+.update{position:fixed;margin-top:-150px;}
+.update .choosenetin{padding:15px;color:#666;min-height:190px;}
+.update .choosenetin p.font14{color:#333;}
+.update .choosenetin p{padding-bottom:5px;}
+.update .bottomB{border-top:1px solid #aaa;position:relative;}
+.update .bottomB span.quitBtn{height:40px;line-height:40px;position:relative;width:50%;float:left;border-radius:0;background-color: #fff;color:#444;border-radius:0;margin:0;border-radius:0 0 4px 4px;}
+.update .bottomB span.quitBtn.current{background-color:#4587c4;color:#fff;}
+.update .bottomB span.quitBtn:last-child{border-radius:0 0 4px 0;border-left:1px solid #aaa;position:absolute;top:0;right:0;}
 /*index*/
 .header{height:44px;line-height:44px;background-color:#fff;border-bottom:1px solid #ddd;position: relative;}
 .header span{display: inline-block;height:44px;line-height:44px;font-size:12px;padding:0 20px 0 10px;}
@@ -355,7 +370,7 @@ pre {
 
 .loading{position:absolute;width:160px;padding:10px 0;top:50%;left:50%;margin:-50px 0 0 -80px;z-index:202;color:#fff;background:url("../img/mask40.png") repeat;border-radius:3px;}
 .loading img{width:35px;height:35px;margin-bottom:8px;}
-.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:30;background:url("../img/mask40.png");}
+.mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:30;background:#000;opacity: 0.4;}
 /*转审*/
 .item_list li .userimg{vertical-align: middle;margin-right:10px;}
 .touch_off{display:block;width:51px;height:26px;font-size:0;line-height:0;
