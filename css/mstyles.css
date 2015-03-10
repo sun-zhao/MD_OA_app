@@ -97,7 +97,11 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .color-9{color:#999;}
 .color-a{color:#aaa;}
 .color-c{color:#ccc!important;}
+.t_croose,.t_veto,.t_wait{color:#06c;padding-left:2px;}
+.t_veto{color:#ee1e1e;}
+.t_wait{color:#888}
 .color-info{color:#f19149;}
+.keywords{color:#f19149;}
 .Important,.Important td,.Important th{color:#eb6100!important;}
 .error,.error span{color:#bd2c00!important;}
 .nobg{background:none!important;}
@@ -270,7 +274,8 @@ margin-bottom:5px;-webkit-animation:bounceIn .3s .3s ease both;animation:bounceI
 .list_main{top:80px;bottom:50px;}
 .list_tilte{height:30px;line-height:30px;border-bottom:1px solid #ccc;}
 .list_tilte .more{height:30px;line-height:30px;}
-.list li{min-height:69px;border-bottom:1px solid #ccc;background:#fff;position:relative;}
+.list li{min-height:69px;border-bottom:1px solid #ccc;background:#fff;position:relative;transition:0.3s;-webkit-transition:0.3s;}
+.list li.active .list_li{background:#ddd;transition:0.3s;-webkit-transition:0.3s;}
 .list li span [class^="btn_"],.list li span [class*="btn_"]{display:inline-block;position:absolute;height:70px;line-height:70px;}
 .list_li{position: relative;height:60px;padding:10px 0 0 0;z-index:2;background:#fff;right:0;transition:0.3s;-webkit-transition:0.3s;}
 .list_li .more{padding:0;padding-right:2px;display:inline;}
@@ -312,9 +317,9 @@ ul.contactBox li img{width:34px;height:34px;border-radius:50em;margin:8px 10px 0
 ul.contactBox li div.floatleft p:first-child{color:#555;padding-top:5px;font-size:15px;}
 ul.contactBox li div.floatleft p:last-child{color:#888;}
 ul.contactBox li div.floatleft p span:first-child{padding-right:10px;}
-li .radio_ico{left:inherit;right:20px;width:16px;height:16px;line-height:16px;top:50%;margin-top:-8px;border-color:#06c;color:#06c;display:none;}
+ul.contactBox li .radio_ico{left:inherit;right:20px;width:16px;height:16px;line-height:16px;top:50%;margin-top:-8px;border-color:#06c;color:#06c;display:none;}
 .item_list_step .icon-check2{display:none;}
-li .radio_ico i,.choosed .icon-check2{display: inline-block;}
+ul.contactBox li .radio_ico i,.choosed .icon-check2{display: inline-block;}
 li.choosed .radio_ico{display:block;}
 ul.city_list li{height:40px;line-height:40px;}
 ul.city_list li div.floatleft p:first-child{padding:0;}
