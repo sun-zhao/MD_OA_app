@@ -60,7 +60,7 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .floatleft{float: left;}
 .floatright{float: right;}
 /*width*/
-.width-60{width:48px;color:#06c;text-indent:0;}
+.width-48{width:48px;color:#06c;text-indent:0;}
 /*padding*/
 .nopadding{padding:0!important;}
 .p-top5{padding-top:5px!important;}
@@ -276,10 +276,10 @@ margin-bottom:5px;-webkit-animation:bounceIn .3s .3s ease both;animation:bounceI
 .list_main{top:80px;bottom:50px;}
 .list_tilte{height:30px;line-height:30px;border-bottom:1px solid #ccc;}
 .list_tilte .more{height:30px;line-height:30px;}
-.list li{min-height:69px;border-bottom:1px solid #ccc;background:#fff;position:relative;}
+.list li{min-height:69px;border-bottom:1px solid #ccc;background:#fff;position:relative;overflow-x:hidden;}
 .list li.active .list_li{background:#ddd;transition:0.3s;-webkit-transition:0.3s;}
 .list li span [class^="btn_"],.list li span [class*="btn_"]{display:inline-block;position:absolute;height:70px;line-height:70px;}
-.list_li{position: relative;height:60px;padding:10px 0 0 0;z-index:2;background:#fff;right:0;transition:0.3s;-webkit-transition:0.3s;}
+.list_li{position: relative;height:60px;padding:10px 0 0 0;z-index:2;background:#fff;right:0;transition:0.3s;-webkit-transition:0.3s;overflow-x:hidden;}
 .list_li .more{padding:0;padding-right:2px;display:inline;}
 .list_li .icon-expand-more{position:absolute;font-size:20px;left:92%;top:50%;margin-top:-7px;color:#ccc;transition:0.3s;-webkit-transition:0.3s;}
 .list_li p{line-height:26px;text-indent:10px;width:96%;height:26px;}
