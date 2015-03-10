@@ -60,7 +60,7 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .floatleft{float: left;}
 .floatright{float: right;}
 /*width*/
-.width-60{width:60px;color:#06c;float: left;}
+.width-60{width:60px;color:#06c;text-indent:0;}
 /*padding*/
 .nopadding{padding:0!important;}
 .p-top5{padding-top:5px!important;}
@@ -88,7 +88,7 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .font24{font-size:25px!important;}
 .font30{font-size:30px!important;}
 .l_th{text-decoration:line-through!important;}
-.txt_hidden,.name{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+.txt_hidden,.name,.list_li p{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
 .block{display: block;}
 .goon{cursor: pointer;}
 .more{color:#0066cc;padding:0 10px;display:inline-block;}
@@ -170,12 +170,12 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .update .bottomB span.quitBtn.current{background-color:#4587c4;color:#fff;}
 .update .bottomB span.quitBtn:last-child{border-radius:0 0 4px 0;border-left:1px solid #aaa;position:absolute;top:0;right:0;}
 /*index*/
-.header{height:44px;line-height:44px;background-color:#fff;border-bottom:1px solid #ddd;position: relative;}
+.header{height:44px;line-height:44px;background-color:#fff;border-bottom:1px solid #ddd;position: relative;z-index:100;}
 .header span{display: inline-block;height:44px;line-height:44px;font-size:12px;padding:0 20px 0 10px;}
 .header span.floatright{padding:0 10px 0 20px;}
 .header span.userimg{padding:0;margin:15px 30px 0 20px;}
 .header span.mid_name{padding:0;position:absolute;width:60%;left:50%;margin-left:-30%;}
-.main{position: absolute;left:0;right:0;bottom:0;overflow: hidden;}
+.main{position: absolute;left:0;right:0;bottom:0;}
 .header span i{line-height: 45px;}
 
 .form_main{top:45px;}
@@ -282,7 +282,7 @@ margin-bottom:5px;-webkit-animation:bounceIn .3s .3s ease both;animation:bounceI
 .list_li{position: relative;height:60px;padding:10px 0 0 0;z-index:2;background:#fff;right:0;transition:0.3s;-webkit-transition:0.3s;}
 .list_li .more{padding:0;padding-right:2px;display:inline;}
 .list_li .icon-expand-more{position:absolute;font-size:20px;left:92%;top:50%;margin-top:-7px;color:#ccc;transition:0.3s;-webkit-transition:0.3s;}
-.list_li p{line-height:26px;text-indent:10px;}
+.list_li p{line-height:26px;text-indent:10px;width:96%;height:26px;}
 .list_li .icon-expand-more,.arrow_r .icon-expand-more,.item_list li .icon-expand-more,.city_list li .icon-expand-more{position:absolute;font-size:20px;left:92%;top:50%;margin-top:-7px;color:#aaa;transition:0.3s;-webkit-transition:0.3s;}
 .current .icon-expand-more{transform:rotate(-180deg);-webkit-transform:rotate(-180deg);transition:0.3s;-webkit-transition:0.3s;}
 .no_preview .icon-expand-more,.arrow_r .icon-expand-more,.item_list li .icon-expand-more,.city_list li .icon-expand-more{transform:rotate(-90deg);-webkit-transform:rotate(-90deg);}
