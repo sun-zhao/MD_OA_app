@@ -133,7 +133,7 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .btn_login,.btn_next{background-color:#06c;}
 .btn_commit{background-color:#21c064;}
 .btn_voet{background-color:#ff502b;}
-.btn_normal{background-color:#ccc}
+.btn_normal{background-color:#ccc;color:#888;}
 .btn_next{background-color:;}
 .btn_inline{display:inline-block;width:48px;height:32px;line-height:32px;text-align: center;color:#888;border:1px solid #888;border-radius:4px;-webkit-border-radius:4px;}
 .footer_app .btn_inline{width:20%;margin:0 5px;margin-top:7px;font-size:14px;}
