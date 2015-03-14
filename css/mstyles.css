@@ -132,6 +132,8 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .btn{position: absolute;left:0;bottom:0;right:0;height:60px;line-height:60px;text-align: center;color:#fff;font-size:14px;}
 .btn_login,.btn_next{background-color:#06c;}
 .btn_commit{background-color:#21c064;}
+.btn_voet{background-color:#ff502b;}
+.btn_normal{background-color:#ccc}
 .btn_next{background-color:;}
 .btn_inline{display:inline-block;width:48px;height:32px;line-height:32px;text-align: center;color:#888;border:1px solid #888;border-radius:4px;-webkit-border-radius:4px;}
 .footer_app .btn_inline{width:20%;margin:0 5px;margin-top:7px;font-size:14px;}
@@ -336,7 +338,7 @@ ul.city_list li{height:40px;line-height:40px;}
 ul.city_list li div.floatleft p:first-child{padding:0;}
 ul.city_list li .icon-check2{margin-top:10px;color:#06c;}
 ul.city_list li.choosed p:last-child{color:#06c!important;}
-
+.item_list_step .name{color:#333;}
 
 ul.contactBox li.word-title,ul.city_list li.word-title{background: none;border:0;padding-left: 10px;height:auto;line-height:normal;}
 .form_item li.choosed .radio_ico{right:0px;}
@@ -431,7 +433,7 @@ background-color:#ddd;border-radius:32px;-webkit-border-radius:32px;position:abs
 .score_details li em{display:block;float:left;height:100%;margin:0 10px 0 -15px;}
 .Revoke{width:50px;height:50px;line-height:50px;text-align:center;background:#dc424e;font-size:15px;color:#fff;position:absolute;right:-50px;bottom:0;z-index:999;transition:0.2s;-webkit-transition:0.2s;}
 .item_list li.active .Revoke{right:0;transition:0.2s;-webkit-transition:0.2s;}
-.item_list li .txt_hidden,.item_list li .name{width:55%;vertical-align:-19px}/*vertical-align:-19px;*/
+.item_list li .txt_hidden,.item_list li .name{width:55%;}/*vertical-align:-19px;*/
 .item_list li .name{width:65px;}
 .item_list_step li{margin-top:-1px;}
 .item_list_step li .txt_hidden{width:60%;}
