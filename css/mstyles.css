@@ -88,7 +88,7 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .font24{font-size:25px!important;}
 .font30{font-size:30px!important;}
 .l_th{text-decoration:line-through!important;}
-.txt_hidden,.list_li p{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+.txt_hidden,.list_li p,.mid_name{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
 /*.list_li p span{float:left;white-space:nowrap;word-break:inherit;}
 .list_li p .name:first-child{margin-left:10px;}*/
 .name{color:#06c;text-indent:0;}
@@ -371,6 +371,7 @@ p.color-3{border-bottom:1px solid #ddd;padding-bottom:10px;}
 .attachment_list li span.floatleft img{width:32px;margin:4px 0 0 5px;}
 .attachment_list li.choose{background:#06c;color:#fff;}
 .AttchImg img{max-width: 95%;margin:5px;}
+.attachment_list li .txt_hidden{width:70%;}
 pre {
   white-space: pre-wrap; /* css-3 */
   white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
