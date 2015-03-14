@@ -258,7 +258,13 @@ margin-bottom:5px;-webkit-animation:bounceIn .3s .3s ease both;animation:bounceI
     transform: scale(1);
   }
 }
-
+pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
 .search{height:39px;line-height:39px;border-bottom:1px solid #ddd;margin:0 20px;margin-top:-40px;-webkit-transition:0.3s;transition:0.3;}
 .search.current{margin-top:0;-webkit-transition:0.3s;transition:0.3;}
 .search i{display:inline-block;height:39px;line-height:44px;}
