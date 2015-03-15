@@ -334,11 +334,12 @@ ul.contactBox li div.floatleft p span:first-child{padding-right:10px;}
 ul.contactBox li .radio_ico{left:inherit;right:20px;width:16px;height:16px;line-height:16px;top:50%;margin-top:-8px;border-color:#06c;color:#06c;display:none;}
 .item_list_step .icon-check2{display:none;}
 ul.contactBox li .radio_ico i,.choosed .icon-check2{display: inline-block;}
-li.choosed .radio_ico{display:block;}
+ul.contactBox li .radio_ico{position: absolute;}
+ul.contactBox li .radio_ico i{top:50%;left:50%;margin:-1px 0 0 -1px;}
+li.choosed .radio_ico{display:block!important;position: relative;}
 ul.city_list li{height:40px;line-height:40px;}
 ul.city_list li div.floatleft p:first-child{padding:0;}
 ul.city_list li .icon-check2,ul.contactBox li .icon-check2{margin-top:10px;color:#06c;}
-ul.contactBox li .icon-check2{margin-top:13px;}
 ul.city_list li.choosed p:last-child{color:#06c!important;}
 .item_list_step .name{color:#333;}
 
