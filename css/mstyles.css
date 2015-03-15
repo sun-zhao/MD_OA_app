@@ -288,7 +288,8 @@ pre {
 .list_tilte{height:30px;line-height:30px;border-bottom:1px solid #ccc;}
 .list_tilte .more{height:30px;line-height:30px;}
 .list li{min-height:69px;border-bottom:1px solid #ccc;background:#fff;position:relative;overflow-x:hidden;}
-.list li.active .list_li{background:#ddd;transition:0.3s;-webkit-transition:0.3s;}
+.list li.active .list_li,.item_list li.active .inner,.item_list li.active .Inmask{background:#ECEBEB;transition:0.3s;-webkit-transition:0.3s;}
+li.active .icon-square-check{color:#aaa;}
 .list li span [class^="btn_"],.list li span [class*="btn_"]{display:inline-block;position:absolute;height:70px;line-height:70px;}
 .list_li{position: relative;height:60px;padding:10px 0 0 0;z-index:2;background:#fff;right:0;transition:0.3s;-webkit-transition:0.3s;overflow-x:hidden;}
 .list_li .more{padding:0;padding-right:2px;display:inline;}
@@ -336,7 +337,8 @@ ul.contactBox li .radio_ico i,.choosed .icon-check2{display: inline-block;}
 li.choosed .radio_ico{display:block;}
 ul.city_list li{height:40px;line-height:40px;}
 ul.city_list li div.floatleft p:first-child{padding:0;}
-ul.city_list li .icon-check2{margin-top:10px;color:#06c;}
+ul.city_list li .icon-check2,ul.contactBox li .icon-check2{margin-top:10px;color:#06c;}
+ul.contactBox li .icon-check2{margin-top:13px;}
 ul.city_list li.choosed p:last-child{color:#06c!important;}
 .item_list_step .name{color:#333;}
 
@@ -426,7 +428,7 @@ background-color:#ddd;border-radius:32px;-webkit-border-radius:32px;position:abs
 .editList li.upimg .inner .Inmask{position:relative;margin-left:-10px;}
 .score_main{top:45px;bottom:110px;}
 .select_in{border:0;width:40%;height:50px;line-height:50px;background:none;margin-left:10px;color:#06c;}
-.item_list li .select_in{width:100%;color:#888;margin-right:-20px;}
+.item_list li .select_in{width:115%;color:#888;position: relative;left:-18px;top:-2px;font-size:14px;}
 .score_item_list{width:100%;position:absolute;left:0;bottom:60px;background:#f5f5f5;}
 .score_item_list li{margin-top:0;}
 .score_details{padding-left:30px;}
