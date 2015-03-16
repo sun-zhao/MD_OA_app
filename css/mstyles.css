@@ -419,7 +419,7 @@ background-color:#ddd;border-radius:32px;-webkit-border-radius:32px;position:abs
 .editList li .has-error .Inmask span.text_int input{color:#bd2c00!important;}
 .editList li .has-error{border-color:#fb7d79;}
 .editList li textarea + .Inmask{height:80px;}
-.editList li.choose span.text_int{text-align: right;}
+.editList li span.text_int{text-align: right;}
 .editList li input,.editList li textarea,.editList li .article{background:transparent;width:100%;border:0;position: relative;z-index:5;color:#888;overflow-y:visible;font-size:14px;}
 .editList li textarea{min-height:30px;line-height:20px;height:80px;}
 .editList li.autoHeight div.inner{height:auto;min-height:40px;}
