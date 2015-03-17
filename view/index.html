@@ -15,15 +15,23 @@
 <body>
 <div class="view">
 	<header class="header clearfix">
-		<span class="floatleft">取消</span>
+		<!--<span class="floatleft">取消</span>-->
 		<span class="floatright" id="search">筛选</span>
 		<span class="mid_name font14 aligncenter">请选择申请的表单</span>
 	</header>
+	<!--分类begin-->
+	<section class="search_out apps_title aligncenter">
+		<span class="current">常用</span>
+		<span>财务</span>
+		<span>财务</span>
+		<span>人力</span>
+		<span>行政</span>
+	</section>
 	<!--表单列表begin-->
-	<section class="main form_main" id="wrapper">
+	<section class="main form_main" id="wrapper" style="top:85px;">
 		<div id="scroller">
 			<!--搜索begin-->
-			<div class="search">
+			<div class="search" style="display: none;">
 				<i class="icon-iser font14"></i>
 				<input type="text" placeholder="搜索表单">
 			</div>
@@ -118,7 +126,7 @@
 	</section>
 	<!--表单列表over-->
 	<!--筛选表单类别begin-->
-	<ul class="form_item" style="display: ;">
+	<ul class="form_item" style="display:none ;">
 		<li class="choosed">全部<span class="radio_ico"><i class="icon-check2"></i></span></li>
 		<li>常用表单<span class="radio_ico"><i class="icon-check2"></i></span></li>
 		<li>财务<span class="radio_ico"><i class="icon-check2"></i></span></li>
@@ -126,7 +134,7 @@
 		<li>行政<span class="radio_ico"><i class="icon-check2"></i></span></li>
 	</ul>
 	<!--筛选表单类别over-->
-	<div class="mask" style="display: ;"></div>
+	<div class="mask" style="display:none;"></div>
 </div>
 </body>
 </html>
