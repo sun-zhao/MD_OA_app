@@ -29,11 +29,18 @@
 	<!--列表begin-->
 	<section class="main list_main" id="wrapper" style="top:85px;">
 		<div id="scroller">
-			<div class="aligncenter p-top30">
+			<div class="aligncenter get_more" style="display:;"><!--下拉的时候加 up ,松手时候 up 换为  wait-->
+				<span class="load"></span>
+				<span>
+					<em class="font13">加载中...</em><br />
+					<em class="font9">最后更新: 今天 12:07</em>
+				</span>
+			</div>
+			<div class="aligncenter p-top30" style="display: none;">
 				<p><img src="../img/nodata.png" style="width:90px"></p>
 				<p class="color-8">暂无数据</p>
 			</div>
-			<ul class="list" title="点击批量操作时候给这个UL加choose" style="display: none;">
+			<ul class="list" title="点击批量操作时候给这个UL加choose">
 				<li title="这个是不能展开的" class="no_preview active">
 					<span class="radio_ico"><i class="icon-check2"></i></span>
 					<div class="list_li">

@@ -458,7 +458,11 @@ background-color:#ddd;border-radius:32px;-webkit-border-radius:32px;position:abs
 i.icon-iback,.header_large.active,.header_large,span.active i.icon-iback{transition:0.3s;-webkit-transition:0.3s;}
 span.active i.icon-iback{margin-left:-3px;}
 .header_large.active{background-position-x:97%;}
-
+.get_more span{display: inline-block;color:#777;}
+.get_more .load{width:25px;height:25px;background:url(../img/loading1.png) no-repeat center center;background-size:20px;margin-right:5px;-webkit-transition:0.3s;transition:0.3s;}
+.get_more.up .load{-webkit-transform:rotate(-180deg);-webkit-transition:0.3s;transition:0.3s;}
+.get_more.wait .load{background:url(../img/loading2.png) no-repeat center center;background-size:25px;-webkit-animation:spin 800ms infinite linear;animation:spin 800ms infinite linear;}
+.get_more span:nth-child(2){text-align:left;line-height:16px;}
 
 
 
