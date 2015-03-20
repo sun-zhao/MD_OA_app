@@ -354,6 +354,7 @@ ul.contactBox li.word-title,ul.city_list li.word-title{background: none;border:0
 .word_current{width:36px;height:36px;background:#000;opacity: 0.3;border:1px solid #9a9a9a;border-radius:5px;-webkit-border-radius:5px;position: absolute;top:50%;margin-top:-18px;right:20px;line-height:36px;text-align: center;color: #fff;font-size:16px;}
 .apps_title{background:#f5f5f5;height:39px;border-bottom:1px solid #ddd;position:relative;z-index:10;}
 .apps_title span{display:inline-block;height:26px;line-height:26px;padding:0 14px;margin:0 4px;margin-top:7px;border-radius:12px;-webkit-border-radius:12px;}
+.apps_title.apply_list span{padding:0;margin:7px 0 0 0;width:15%;}
 .apps_title span.current{background:#06c;color:#fff;}
 .form_tab span{width:30%;padding:0px;margin:7px 20px 0 20px;}
 /*表单详情审批*/
