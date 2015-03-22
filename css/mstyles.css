@@ -305,7 +305,7 @@ li.active .icon-square-check{color:#aaa;}
 .arrow_t{display:inline-block;width:11px;height:5px;background:url(../img/arrow_t.png) no-repeat 0 0;background-size:100%;position: absolute;left:50%;margin-left:-5px;top:-5px;}
 .preview table{width:100%;}
 .preview table th{height:20px;color:#888;width:65px;}
-.preview table td{height:20px;color:#444;}
+.preview table td{height:20px;color:#444;word-wrap: break-word;word-break: break-all;}
 .preview table tr:last-child td,.preview table tr:last-child th{border-bottom:1px solid #ccc;padding-bottom:10px;}
 .radio_ico{display:inline-block;width:20px;height:20px;line-height:22px;border:1px solid #aaa;border-radius:50%;-webkit-border-radius:50%;
 position:absolute;text-align: center;top:28px;left:10px;}
