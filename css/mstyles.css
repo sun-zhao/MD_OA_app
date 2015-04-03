@@ -111,6 +111,7 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .error,.error span{color:#bd2c00!important;}
 .nobg{background:none!important;}
 .nobgimg{background-image:none!important;}
+.bgwhite{background:#fff;}
 /*.mask,.loading{position:absolute;top:0;left:0;right:0;bottom:0;background:#000;opacity:0.5;z-index:50;}*/
 /*.loading{width:50px;height:50px;line-height:50px;text-align:center;left:50%;top:50%;right:inherit;bottom:inherit;margin:-25px 0 0 -25px;opacity:0.3;font-size:30px;color:#ccc;border-radius:4px;-webkit-border-radius:4px;}*/
 /*.loading i{-webkit-animation:spin 700ms infinite linear;animation:spin 700ms infinite linear;}*/
