@@ -137,6 +137,12 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .btn_normal{background-color:#ccc;color:#888;}
 .btn_next{background-color:;}
 .btn_inline{display:inline-block;width:48px;height:32px;line-height:32px;text-align: center;color:#888;border:1px solid #888;border-radius:4px;-webkit-border-radius:4px;}
+.btnItem{position: absolute;right:0;left:0;bottom:0;}
+.btnItem .btn{position:inherit;height:50px;line-height:50px;width:50%;float: left;}
+.btnItem .btn:nth-child(1){left:0;right:50%;background:#4587c4}
+.btnItem .btn:nth-child(2){right:0;left:50%;background:#48b65a;}
+
+
 .footer_app .btn_inline{width:20%;margin:0 5px;margin-top:7px;font-size:14px;}
 .btn_no{border-color:#df4341;color:#df4341;}
 .btn_yes{border-color:#21c064;color:#21c064;}
