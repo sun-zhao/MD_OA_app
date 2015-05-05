@@ -189,6 +189,9 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .header span.mid_name{padding:0;position:absolute;width:60%;left:50%;margin-left:-30%;}
 .main{position: absolute;left:0;right:0;bottom:0;}
 .header span i{line-height: 45px;}
+.reg{background:#000;border-bottom-color:#333;}
+
+
 
 .form_main{top:45px;}
 .form_table{width:100%;}
