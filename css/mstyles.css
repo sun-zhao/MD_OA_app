@@ -466,16 +466,18 @@ span.active i.icon-iback{margin-left:-3px;}
 .get_more span:nth-child(2){text-align:left;line-height:16px;}
 .details table tr:last-child td, .details table tr:last-child th{border:0;}
 .details .title{border-bottom:1px solid #ddd;margin-bottom:10px;padding-bottom:3px;}
-
-
-
-
-
-
-
-
-
-
+/*2015-8-10*/
+.humBtn{display: block;width:50px;height:50px;line-height:54px;position:fixed;right:15px;bottom:70px;border-radius:50%;background:#0066cc;opacity: 0.9;text-align:center;color:#fff;}
+.rightCount{width:90%;position:fixed;top:0;right:0;bottom:0;background:#eee;z-index:120;right:-90%;transition: 0.4s;}
+.rightCount.current{right:0;transition: 0.4s;}
+.rightCount .header{background:#f6f6f6;}
+.rightCount .list li{min-height:auto;}
+.rightCount .list .list_li{height:45px;line-height:45px;padding:0;overflow:hidden;}
+.rightCount .list .list_li p{height:45px;line-height:45px;}
+.rightCount .list .list_li .icon-expand-more{font-size:30px;right:10px;}
+.rightCount .list_ul{border:1px solid #d9d9d9;border-width:1px 0;background:#fff;}
+.rightCount .list_ul li{margin-left:15px;}
+.rightCount .list_ul li:last-child{border:0;}
 
 
 

@@ -123,6 +123,9 @@
 .icon-shuffle2:before {
 	content: "\ea30";
 }
+.icon-menu:before {
+	content: "\e654";
+}
 
 .icon-bdgl:before {
 	content: "\e620";
