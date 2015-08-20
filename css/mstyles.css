@@ -490,8 +490,8 @@ span.active i.icon-iback{margin-left:-3px;}
 .rightCount .list_ul li:last-child{border:0;}
 .rightInner{position: absolute;left:0;right:0;top:45px;bottom:0;overflow-y: auto;background:#fff;transition: 0.4s;-webkit-transition: 0.4s;}
 .Ios_scroll{-webkit-overflow-scrolling : touch;}
-.rightCount ul.city_list li{height:44px;line-height:44px;}
-
+.rightCount ul.city_list li{height:44px;line-height:44px;border-color:#ccc;}
+.rightCount ul.contactBox li div.floatleft p:last-child{color:#333;}
 
 
 
