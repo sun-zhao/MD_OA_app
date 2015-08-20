@@ -478,7 +478,7 @@ span.active i.icon-iback{margin-left:-3px;}
 .details .title{border-bottom:1px solid #ddd;margin-bottom:10px;padding-bottom:3px;}
 /*2015-8-10*/
 .humBtn{display: block;width:50px;height:50px;line-height:54px;position:fixed;z-index:20;right:15px;bottom:20px;border-radius:50%;background:#0066cc;opacity: 0.9;text-align:center;color:#fff;}
-.rightCount{width:100%;position:fixed;top:0;right:0;bottom:0;background:#eee;z-index:120;right:0;transition: 0.4s;}
+.rightCount{width:100%;position:fixed;top:0;right:0;bottom:0;background:#eee;z-index:120;right:0;}
 /*.rightCount.current{right:0;transition: 0.4s;}*/
 .rightCount .header{background:#f6f6f6;}
 .rightCount .list li{min-height:45px;}
@@ -488,13 +488,8 @@ span.active i.icon-iback{margin-left:-3px;}
 .rightCount .list_ul{border-bottom:1px solid #d9d9d9;background:#fff;}
 /*.rightCount .list_ul li{margin-left:15px;}*/
 .rightCount .list_ul li:last-child{border:0;}
-.rightInner{position: absolute;left:0;right:0;top:45px;bottom:0;overflow-y: auto;background:#fff;transition: 0.2s;-webkit-transition: 0.2s;}
+.rightInner{position: absolute;left:0;right:0;top:45px;bottom:0;overflow-y: auto;background:#fff;transition: 0.4s;-webkit-transition: 0.4s;}
 .Ios_scroll{-webkit-overflow-scrolling : touch;}
-.rightCount .list li dl{height:0;overflow: hidden;transition: 0.3s;-webkit-transition: 0.3s;}
-.rightCount .list li dl dd{padding-left:20px;line-height:30px;color:#888;}
-.rightCount .list li dl dd.current{color:#0863BD;}
-.rightCount .list li.current dl{padding-bottom:10px;height:auto;transition:0.3s;-webkit-transition: 0.3s;}
-.rightCount .list li.current .list_li .icon-expand-more{-webkit-transform:rotate(-180deg);transition: 0.2s;-webkit-transition: 0.2s;margin-top:-15px;}
 .rightCount ul.city_list li{height:44px;line-height:44px;}
 
 
