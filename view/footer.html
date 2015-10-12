@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <meta name="apple-touch-fullscreen" content="yes"/>
+	    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"> 
+	    <title>填写表单step1</title>
+	    <link rel="stylesheet" type="text/css" href="../css/mstyles.css">
+	    <link rel="stylesheet" type="text/css" href="../css/fontstyles.css">
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/iscroll.js"></script>
+		<script type="text/javascript" src="../js/lAapp.js"></script>
+		<script>
+			// H5 plus事件处理
+			function plusReady(){
+				var workHead = plus.webview.create("header.html", "platform_head", {
+						top: "0px",
+						bottom: "50px",
+						scrollIndicator: 'vertical'
+					});
+					workHead.addEventListener("loaded", function() { //叶面加载完成后才显示
+						 plus.webview.currentWebview().append(workHead);
+				}, false);
+			}
+			if(window.plus){
+				plusReady();
+			}else{
+				document.addEventListener("plusready",plusReady,false);
+			}
+		</script>
+	</head>
+	<body>
+		<footer class="footer_tool">
+			<span class="current"><i class="icon-laptop-chromebook"></i>工作台</span>
+			<span><i class="icon-play-install"></i>归档</span>
+			<span><i class="icon-bin2 font17"></i><i class="icon-rotate-left"></i>草稿箱</span>
+			<span><i class="icon-search2"></i>搜索</span>
+			<span><i class="icon-plus"></i>提申请</span>
+		</footer>
+		<!--<span class="btn btn_next" style="position: fixed;">下一步</span>-->
+	</body>
+</html>

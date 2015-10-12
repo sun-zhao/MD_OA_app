@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
     <meta name="apple-touch-fullscreen" content="yes"/>
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"> 
     <title>填写表单step1</title>
@@ -12,13 +12,8 @@
 	<script type="text/javascript" src="../js/iscroll.js"></script>
 	<script type="text/javascript" src="../js/lAapp.js"></script>
 </head>
-<body>
-	<div class="view">
-		<header class="header clearfix">
-			<span class="mid_name font14 aligncenter">付款申请</span>
-			<span class="floatright">取消</span>
-		</header>
-		<section class="main process_main" id="wrapper"><!--当是安卓机子的时候就不用这个滚动条插件了，并且给main加    style="overflow-y:auto;"-->
+<body class="">
+		<section class="main process_main Ios_scroll" style="top:0;bottom:0;"><!--当是安卓机子的时候就不用这个滚动条插件了，并且给main加    style="overflow-y:auto;"-->
 			<div id="scroller">
 				<ul class="item_list editList p-top10">
 					<li class="active">
@@ -31,7 +26,7 @@
 						</div>
 					</li>
 					<li class="">
-						<div class="inner has-error">
+						<div class="inner">
 							<div class="Inmask">
 								<span class="floatleft">出差城市</span>
 								<span class="text_int">新西兰</span>
@@ -71,7 +66,7 @@
 						</div>
 					</li>
 					<li>
-						<div class="inner has-error"><!--验证填写的信息是否真确，如果不正确加has-error，并将span或input里面的内容改成提示信息，当input再次获得焦点是再恢复用户的填写的信息或是清空重新写-->
+						<div class="inner"><!--验证填写的信息是否真确，如果不正确加has-error，并将span或input里面的内容改成提示信息，当input再次获得焦点是再恢复用户的填写的信息或是清空重新写-->
 							<div class="Inmask">
 								<span class="floatleft">信息不完整</span>
 								<span class="text_int"><input type="text" placeholder="必填" class="" value=""></span>
@@ -201,8 +196,6 @@
 				<!--加班over-->
 			</div>
 		</section>
-		<span class="btn btn_next">下一步</span>
-	</div>
 </body>
 </html>
 
