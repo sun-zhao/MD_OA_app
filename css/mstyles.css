@@ -137,10 +137,10 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 .btn_normal{background-color:#ccc;color:#888;}
 .btn_next{background-color:;}
 .btn_inline{display:inline-block;width:48px;height:32px;line-height:32px;text-align: center;color:#888;border:1px solid #888;border-radius:4px;-webkit-border-radius:4px;}
-.btnItem{position: absolute;right:0;left:0;bottom:0;}
-.btnItem .btn{position:inherit;height:50px;line-height:50px;width:50%;float: left;}
-.btnItem .btn:nth-child(1){left:0;right:50%;background:#4587c4}
-.btnItem .btn:nth-child(2){right:0;left:50%;background:#48b65a;}
+.btnItem{position: absolute;right:50px;left:50px;bottom:0;}
+.btnItem .btn{display:block;width:100%;height:40px;line-height:40px;margin-bottom:20px;color:#fff;border:1px solid #3073cd;font-size:14px;position:relative;border-radius:3px;}
+.btnItem .btn:nth-child(1){background:#347cdc}
+.btnItem .btn:nth-child(2){background:none;color:#888;border-color:#aba7a3;}
 
 
 .footer_app .btn_inline{width:20%;margin:0 5px;margin-top:7px;font-size:14px;}
@@ -155,17 +155,18 @@ label.checkbox,label.radio,label.text{padding-left:4px;vertical-align:top;}
 
 .view{width:100%;height:100%;background-color:#eee;}
 .login{position: absolute;left:0;right:0;top:15%;}
-.login img{width:46.8%;}
-.login_box{position:absolute;right:30px;left:30px;top:35%;}
+.login img{width:36%;}
+.login_box{position:absolute;right:60px;left:60px;top:50%;}
 .login_box p{border-bottom:1px solid #aaa;height:36px;line-height:36px;position: relative;margin-bottom:20px;}
-.login_box p i{position:absolute;height:36px;line-height:36px;left:1px;top:1px;font-size:16px;}
+.login_box p i{position:absolute;height:36px;line-height:36px;left:1px;top:1px;font-size:16px;color:#aaa;}
 .login_box p i.icon-person{left:-2px;}
 .login_box p i.icon-vpn-key{transform:rotate(90deg);-webkit-transform:rotate(90deg);}
 .login_box p input{border:0;height:32px;line-height:32px;width:100%;text-indent:25px;background:none;color:#aaa;}
 .company_name{position: absolute;top:80%;left:0;right:0;color:#aaa;}
 .splash_logo,.splash_img{width:100%;position: absolute;top:20%;z-index:2;}
 .splash_img{max-width:1080px;left:50%;margin-left:-50%;top:inherit;bottom:0;z-index:1;}
-.splash_logo img{width:46%;max-width:500px;}
+.splash_logo img{width:36%;max-width:500px;}
+.net{position: absolute;width:100%;bottom:10px;text-align: center;color:#888;z-index:2;}
 .choosenet{width:270px;background:#fff;position:absolute;left:50%;margin-left:-135px;z-index:300;border-radius:5px;top:50%;margin-top:-100px;}
 .choosenet ul li{display:block;margin:0 13px;border-bottom:1px solid #ccc;height:50px;line-height:50px;font-size:14px;text-indent:5px;position:relative;z-index:10;}
 .choosenet ul li:last-child{border-bottom:0;}

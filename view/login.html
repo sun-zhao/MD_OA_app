@@ -23,10 +23,9 @@
 				<input type="password" placeholder="密码"/>
 			</p>
 		</div>
-		<p class="company_name aligncenter">上海万企明道软件有限公司</p>
         <p class="btnItem">
-            <span class="btn btn_reg">注 册</span>
-            <span class="btn btn_login">登 录</span>
+            <span class="btn btn_reg">登&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</span>
+            <span class="btn btn_login">新用户注册</span>
         </p>
 	</div>
 	<div class="mask" style="display:none;"></div>
@@ -86,6 +85,11 @@
 		</p>
 	</div>
 	<!--提示更新 over-->
+	<script>
+		window.addEventListener('resize', function() {
+		    document.getElementById("bottomBtn").style.display = document.body.clientHeight <= 400 ? 'none' : 'block';
+		}, false);
+	</script>
 </body>
 </html>
 
