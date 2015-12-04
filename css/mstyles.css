@@ -347,7 +347,7 @@ ul.contactBox li img{width:34px;height:34px;border-radius:50em;margin:8px 10px 0
 ul.contactBox li div.floatleft p:first-child{color:#555;padding-top:5px;font-size:15px;}
 ul.contactBox li div.floatleft p:last-child{color:#888;}
 ul.contactBox li div.floatleft p span:first-child{padding-right:10px;}
-ul.contactBox li .radio_ico{left:inherit;right:20px;width:16px;height:16px;line-height:16px;top:50%;margin-top:-8px;border-color:#06c;color:#06c;display:none;}
+ul.contactBox li .radio_ico{left:inherit;right:10px;width:16px;height:16px;line-height:16px;top:50%;margin-top:-8px;border-color:#06c;color:#06c;display:none;}
 .item_list_step .icon-check2{display:none;}
 ul.contactBox li .radio_ico i,.choosed .icon-check2{display: inline-block;}
 ul.contactBox li .radio_ico{position: absolute;}
@@ -405,6 +405,8 @@ p.color-3{border-bottom:1px solid #ddd;padding-bottom:10px;}
 .attachment_list li.choose{background:#06c;color:#fff;}
 .AttchImg img{max-width: 95%;margin:5px;}
 .attachment_list li .txt_hidden{width:70%;}
+.city_list li div.floatleft{width: 100%;height:40px;}
+.city_list li p.txt_hidden{width:93%;font-size:13px!important;}
 pre {
   white-space: pre-wrap; /* css-3 */
   white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
