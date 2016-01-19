@@ -10,7 +10,7 @@
     "icons": {
         "72": "icon.png"
     },
-    "launch_path": "view/over.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+    "launch_path": "view/附件查看.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
     "developer": {
         "name": "",/*开发者名称*/
         "email": "",/*开发者邮箱地址*/
@@ -197,5 +197,91 @@
                 }
             }
         }
-    }
+    },
+	"dependencies": {
+		"pages": {
+			"view/附件查看.html": {
+				"resources": [
+					"css/photoswipe.css",
+					"js/photoswipe.min.js",
+					"css/mstyles.css",
+					"img/1.jpg",
+					"css/fontstyles.css",
+					"css/default-skin.css",
+					"js/photoswipe-ui-default.min.js",
+					"css/moafont.woff",
+					"js/jquery.js",
+					"img/default-skin.svg"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"img/moafont.ttf",
+				"view/index.html",
+				"view/workovertime2.html",
+				"view/form.html",
+				"css/moafont.ttf",
+				"view/login_new.html",
+				"view/转审.html",
+				"img/fu_xlsx.gif",
+				"css/moafont.svg",
+				"js/iscroll.js",
+				"img/fu_flv.gif",
+				"img/nodata.png",
+				"view/creat-process.html",
+				"img/moafont.woff",
+				"img/arrow_r.png",
+				"view/list.html",
+				"view/md_reg.html",
+				"view/over.html",
+				"view/审批意见.html",
+				"view/附件.html",
+				"view/city_list.html",
+				"img/fu_pdf.gif",
+				"img/loading2.png",
+				"view/login.html",
+				"img/arrow_l.png",
+				"view/search.html",
+				"img/icon-waring.png",
+				"view/Sign_out.html",
+				"view/step2.html",
+				"view/score_2.html",
+				"img/fu_rar.gif",
+				"view/splash.html",
+				"img/fu_qita.gif",
+				"img/moafont.svg",
+				"img/fu_zip.gif",
+				"view/header.html",
+				"view/process.html",
+				"img/arrow_t.png",
+				"view/processlist.html",
+				"view/workovertime.html",
+				"view/step1.html",
+				"img/fu_mp4.gif",
+				"img/loading1.png",
+				"js/lAapp.js",
+				"img/fu_docx.gif",
+				"view/test.html",
+				"img/fu_mp3.gif",
+				"img/fu_txt.gif",
+				"img/moafont.eot",
+				"view/score.html",
+				"view/cost.html",
+				"img/splash_img.png",
+				"img/fu_img.gif",
+				"css/moafont.eot",
+				"view/contacts.html",
+				"view/footer.html",
+				"img/default-skin.png",
+				"img/fu_pptx.gif",
+				"view/归档.html",
+				"img/logo.png",
+				"img/icon-ok.png",
+				"img/wechat.png"
+			]
+		}
+	}
 }
