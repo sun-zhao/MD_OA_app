@@ -433,8 +433,8 @@ background-color:#ddd;border-radius:32px;-webkit-border-radius:32px;position:abs
 .editList li.noboder{margin-bottom:5px;}
 .editList li .Inmask{left:0;top:0;bottom:0;right:0;position:absolute;background:#fff;font-size:14px;}
 .editList li .Inmask span{color:#aaa;}
-.editList li .Inmask span.floatleft{color:#888;width:90px;text-indent:10px;float: none;}
-.editList li .Inmask span.text_int{display:block;margin-left: 100px;margin-right:30px;}
+.editList li .Inmask span.floatleft{color:#888;width:100px;text-indent:10px;float: none;}
+.editList li .Inmask span.text_int{display:block;margin-left: 110px;margin-right:30px;}
 .editList li .Inmask span.text_int input{width:100%;border:0;text-align:right;height:40px;line-height:normal;font-size:14px;text-indent:0;}
 .editList li .has-error .Inmask span,.editList li .has-error .article,
 .editList li .has-error .Inmask span.text_int input{color:#bd2c00!important;}
